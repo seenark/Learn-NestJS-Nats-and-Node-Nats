@@ -1,0 +1,16 @@
+{
+  "name": "event-producer",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "dev": "chokidar \"**/*.ts\" -c \"npx ts-node main.ts\""
+  },
+  "devDependencies": {
+    "@types/node": "^18.7.3",
+    "chokidar-cli": "^3.0.0"
+  },
+  "dependencies": {
+    "nats": "^2.7.1"
+  }
+}

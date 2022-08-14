@@ -1,0 +1,1 @@
+export const BACKEND_CLIENT = 'BACKEND_CLIENT';
