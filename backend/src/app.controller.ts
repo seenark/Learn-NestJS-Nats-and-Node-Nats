@@ -1,5 +1,11 @@
 import { Controller, Get, Logger } from '@nestjs/common';
-import { EventPattern, Payload } from '@nestjs/microservices';
+import {
+  Ctx,
+  EventPattern,
+  MessagePattern,
+  NatsContext,
+  Payload,
+} from '@nestjs/microservices';
 import { AppService } from './app.service';
 
 @Controller()
